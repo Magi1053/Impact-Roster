@@ -1,0 +1,31 @@
+{
+  "timeZone": "America/Chicago",
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "Underscore",
+      "libraryId": "1PcEHcGVC1njZd8SfXtmgQk19djwVd2GrrW1gd7U5hNk033tzi6IUvIAV",
+      "version": "2"
+    }]
+  },
+  "webapp": {
+    "access": "ANYONE_ANONYMOUS",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "sheets": {
+    "macros": [{
+      "menuName": "SortSheet",
+      "functionName": "SortSheet"
+    }, {
+      "menuName": "BulkUpdate",
+      "functionName": "BulkUpdate"
+    }, {
+      "menuName": "Sort Roster",
+      "functionName": "sortRoster"
+    }, {
+      "menuName": "Update Selected",
+      "functionName": "updateSelected"
+    }]
+  }
+}
